@@ -1,0 +1,24 @@
+node_modules
+.next
+out
+*.tsbuildinfo
+next-env.d.ts
+
+# secrets
+.env
+.env*.local
+
+# local data + deploy config
+.data
+.vercel
+
+# Thmanyah fonts can't be redistributed, download them from font.thmanyah.com
+public/fonts/thmanyah/*.woff2
+Thmanyah-Font-Family/
+
+# local scratch
+Claude outputs/
+
+.DS_Store
+Thumbs.db
+*.log

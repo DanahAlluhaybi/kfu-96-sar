@@ -1,0 +1,551 @@
+{
+  "_readme": "Official National Day-period statistics. Every entry MUST have a real source. status=active can be shown publicly (the public page reveals up to 3 per visitor, closest to National Day first); status=reference is admin/AI-context only. Values were verified on 2026-09-27. The SAMA weekly POS for the National Day 96 week (20–26 Sep 2026) was not yet published at that date — add it from /admin when released (usually ~3 days after the week ends).",
+  "stats": [
+    {
+      "id": "moc-nd96-discount-licenses",
+      "status": "active",
+      "priority": 2,
+      "categories": [
+        "gifts"
+      ],
+      "national_day_specific": true,
+      "period_type": "national_day",
+      "period_start": "2026-09-14",
+      "period_end": "2026-09-30",
+      "period_label": {
+        "ar": "موسم اليوم الوطني 96 · سبتمبر 2026",
+        "en": "National Day 96 season · Sep 2026"
+      },
+      "stat": {
+        "ar": "ترخيص تخفيضات صدر بمناسبة اليوم الوطني 96",
+        "en": "discount licences were issued for National Day 96"
+      },
+      "value": 3500,
+      "unit": "count",
+      "display": {
+        "ar": "+3,500",
+        "en": "3,500+"
+      },
+      "change_pct": null,
+      "change_label": null,
+      "source_org": {
+        "ar": "وزارة التجارة",
+        "en": "Ministry of Commerce"
+      },
+      "source_url": "https://sabq.org/article/frky2sr",
+      "source_note": {
+        "ar": "إعلان وزارة التجارة كما نشرته صحيفة سبق",
+        "en": "Ministry of Commerce announcement, as reported by Sabq"
+      },
+      "published_at": "2026-09-14",
+      "connect": {
+        "ar": "العروض وقتها ما كانت صدفة… كانت موسم كامل.",
+        "en": "The offers back then weren't a coincidence — it was a whole season."
+      },
+      "insight_line": {
+        "ar": "اختياراتكم مالت {to}… والعروض وقتها كانت في كل مكان.",
+        "en": "Your picks leaned towards {to} — and the offers were everywhere back then."
+      }
+    },
+    {
+      "id": "moc-nd96-discounted-products",
+      "status": "active",
+      "priority": 1,
+      "categories": [
+        "shopping",
+        "other"
+      ],
+      "national_day_specific": true,
+      "period_type": "national_day",
+      "period_start": "2026-09-14",
+      "period_end": "2026-09-30",
+      "period_label": {
+        "ar": "موسم اليوم الوطني 96 · سبتمبر 2026",
+        "en": "National Day 96 season · Sep 2026"
+      },
+      "stat": {
+        "ar": "منتج كان عليه تخفيض بمناسبة اليوم الوطني 96",
+        "en": "products were discounted for National Day 96"
+      },
+      "value": 12000000,
+      "unit": "count",
+      "display": {
+        "ar": "+12 مليون",
+        "en": "12M+"
+      },
+      "change_pct": null,
+      "change_label": null,
+      "source_org": {
+        "ar": "وزارة التجارة",
+        "en": "Ministry of Commerce"
+      },
+      "source_url": "https://sabq.org/article/frky2sr",
+      "source_note": {
+        "ar": "إعلان وزارة التجارة كما نشرته صحيفة سبق",
+        "en": "Ministry of Commerce announcement, as reported by Sabq"
+      },
+      "published_at": "2026-09-14",
+      "connect": {
+        "ar": "يعني حتى السوق كان داخل أجواء اليوم الوطني.",
+        "en": "So even the market was in the National Day mood."
+      },
+      "insight_line": {
+        "ar": "اختياراتكم مالت {to}… والسوق وقتها كان داخل أجواء اليوم الوطني بعد.",
+        "en": "Your picks leaned towards {to} — and the market was in the National Day mood too."
+      }
+    },
+    {
+      "id": "gea-nd96-fireworks-cities",
+      "status": "active",
+      "priority": 1,
+      "categories": [
+        "entertainment",
+        "outings"
+      ],
+      "national_day_specific": true,
+      "period_type": "national_day",
+      "period_start": "2026-09-23",
+      "period_end": "2026-09-23",
+      "period_label": {
+        "ar": "ليلة اليوم الوطني 96 · 23 سبتمبر 2026",
+        "en": "National Day 96 night · 23 Sep 2026"
+      },
+      "stat": {
+        "ar": "مدن احتفلت بالألعاب النارية ليلة اليوم الوطني 96",
+        "en": "cities lit up with fireworks on National Day 96 night"
+      },
+      "value": 9,
+      "unit": "count",
+      "display": {
+        "ar": "9 مدن",
+        "en": "9 cities"
+      },
+      "change_pct": null,
+      "change_label": null,
+      "source_org": {
+        "ar": "الهيئة العامة للترفيه",
+        "en": "General Entertainment Authority"
+      },
+      "source_url": "https://www.sayidaty.net/%D8%A8%D9%84%D8%B3/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/1839625-%D8%B9%D8%B1%D9%88%D8%B6-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-96",
+      "source_note": {
+        "ar": "إعلان الهيئة العامة للترفيه كما نشرته مجلة سيدتي",
+        "en": "GEA announcement, as reported by Sayidaty"
+      },
+      "published_at": "2026-09-19",
+      "connect": {
+        "ar": "الاحتفال وقتها ما كان في مكان واحد… كان في كل مكان.",
+        "en": "The celebration wasn't in one place — it was everywhere."
+      },
+      "insight_line": {
+        "ar": "اختياراتكم مالت {to}… والاحتفال وقتها كان في كل مكان.",
+        "en": "Your picks leaned towards {to} — and the celebration was everywhere back then."
+      }
+    },
+    {
+      "id": "sama-2026w-0919-restaurants",
+      "status": "active",
+      "priority": 1,
+      "categories": [
+        "coffee"
+      ],
+      "national_day_specific": false,
+      "period_type": "pre_national_day_week",
+      "period_start": "2026-09-13",
+      "period_end": "2026-09-19",
+      "period_label": {
+        "ar": "الأسبوع اللي قبل اليوم الوطني · 13–19 سبتمبر 2026",
+        "en": "Week before National Day · 13–19 Sep 2026"
+      },
+      "stat": {
+        "ar": "صرفها الناس في المطاعم والمقاهي خلال أسبوع واحد",
+        "en": "spent at restaurants & cafés in a single week"
+      },
+      "value": 1580000000,
+      "unit": "SAR",
+      "display": {
+        "ar": "1.58 مليار ريال",
+        "en": "SAR 1.58bn"
+      },
+      "change_pct": -6.7,
+      "change_label": {
+        "ar": "مقارنة بالأسبوع اللي قبله",
+        "en": "vs the previous week"
+      },
+      "source_org": {
+        "ar": "البنك المركزي السعودي",
+        "en": "Saudi Central Bank (SAMA)"
+      },
+      "source_url": "https://www.sama.gov.sa/ar-sa/Indices/pages/pos.aspx",
+      "source_note": {
+        "ar": "تقرير نقاط البيع الأسبوعي — تم التحقق عبر أرقام وسبق",
+        "en": "Weekly POS report — cross-checked via Argaam and Sabq"
+      },
+      "verified_via": [
+        "https://www.argaam.com/ar/article/articledetail/id/1938475",
+        "https://sabq.org/article/0b01ua0"
+      ],
+      "published_at": "2026-09-23",
+      "connect": {
+        "ar": "قرار صغير… بس جاء في أسبوع كانت فيه المطاعم والمقاهي من أكبر وجهات الصرف.",
+        "en": "A small decision — in a week when restaurants & cafés were among the top places people spent."
+      },
+      "insight_line": {
+        "ar": "اختياراتكم مالت {to}… وقبل اليوم الوطني بأسبوع، المطاعم والمقاهي كانت من أكبر وجهات الصرف.",
+        "en": "Your picks leaned towards {to} — and the week before National Day, restaurants & cafés were among the top places people spent."
+      }
+    },
+    {
+      "id": "sama-2026w-0919-food",
+      "status": "active",
+      "priority": 1,
+      "categories": [
+        "food"
+      ],
+      "national_day_specific": false,
+      "period_type": "pre_national_day_week",
+      "period_start": "2026-09-13",
+      "period_end": "2026-09-19",
+      "period_label": {
+        "ar": "الأسبوع اللي قبل اليوم الوطني · 13–19 سبتمبر 2026",
+        "en": "Week before National Day · 13–19 Sep 2026"
+      },
+      "stat": {
+        "ar": "صرفها الناس على الأكل والمشروبات خلال أسبوع واحد",
+        "en": "spent on food & beverages in a single week"
+      },
+      "value": 2070000000,
+      "unit": "SAR",
+      "display": {
+        "ar": "2.07 مليار ريال",
+        "en": "SAR 2.07bn"
+      },
+      "change_pct": -9.0,
+      "change_label": {
+        "ar": "مقارنة بالأسبوع اللي قبله",
+        "en": "vs the previous week"
+      },
+      "source_org": {
+        "ar": "البنك المركزي السعودي",
+        "en": "Saudi Central Bank (SAMA)"
+      },
+      "source_url": "https://www.sama.gov.sa/ar-sa/Indices/pages/pos.aspx",
+      "source_note": {
+        "ar": "تقرير نقاط البيع الأسبوعي — تم التحقق عبر أرقام وسبق",
+        "en": "Weekly POS report — cross-checked via Argaam and Sabq"
+      },
+      "verified_via": [
+        "https://www.argaam.com/ar/article/articledetail/id/1938475",
+        "https://sabq.org/article/0b01ua0"
+      ],
+      "published_at": "2026-09-23",
+      "connect": {
+        "ar": "وقتها، الأكل والمشروبات كانت أكبر قطاع صرف في المملكة.",
+        "en": "Back then, food & beverages were the Kingdom's biggest spending sector."
+      },
+      "insight_line": {
+        "ar": "اختياراتكم مالت {to}… وقبل اليوم الوطني بأسبوع، الأكل كان أكبر قطاع صرف في المملكة.",
+        "en": "Your picks leaned towards {to} — and the week before National Day, food was the Kingdom's biggest spending sector."
+      }
+    },
+    {
+      "id": "sama-2026w-0919-clothing",
+      "status": "active",
+      "priority": 2,
+      "categories": [
+        "shopping"
+      ],
+      "national_day_specific": false,
+      "period_type": "pre_national_day_week",
+      "period_start": "2026-09-13",
+      "period_end": "2026-09-19",
+      "period_label": {
+        "ar": "الأسبوع اللي قبل اليوم الوطني · 13–19 سبتمبر 2026",
+        "en": "Week before National Day · 13–19 Sep 2026"
+      },
+      "stat": {
+        "ar": "صرفها الناس على الملابس والإكسسوارات خلال أسبوع",
+        "en": "spent on clothing & accessories in a week"
+      },
+      "value": 1060000000,
+      "unit": "SAR",
+      "display": {
+        "ar": "1.06 مليار ريال",
+        "en": "SAR 1.06bn"
+      },
+      "change_pct": -3.4,
+      "change_label": {
+        "ar": "مقارنة بالأسبوع اللي قبله",
+        "en": "vs the previous week"
+      },
+      "source_org": {
+        "ar": "البنك المركزي السعودي",
+        "en": "Saudi Central Bank (SAMA)"
+      },
+      "source_url": "https://www.sama.gov.sa/ar-sa/Indices/pages/pos.aspx",
+      "source_note": {
+        "ar": "تقرير نقاط البيع الأسبوعي — تم التحقق عبر سبق",
+        "en": "Weekly POS report — cross-checked via Sabq"
+      },
+      "verified_via": [
+        "https://sabq.org/article/0b01ua0"
+      ],
+      "published_at": "2026-09-23"
+    },
+    {
+      "id": "sama-2026w-0919-jewelry",
+      "status": "active",
+      "priority": 2,
+      "categories": [
+        "gifts"
+      ],
+      "national_day_specific": false,
+      "period_type": "pre_national_day_week",
+      "period_start": "2026-09-13",
+      "period_end": "2026-09-19",
+      "period_label": {
+        "ar": "الأسبوع اللي قبل اليوم الوطني · 13–19 سبتمبر 2026",
+        "en": "Week before National Day · 13–19 Sep 2026"
+      },
+      "stat": {
+        "ar": "صرفها الناس على المجوهرات خلال أسبوع",
+        "en": "spent on jewellery in a week"
+      },
+      "value": 325600000,
+      "unit": "SAR",
+      "display": {
+        "ar": "325.6 مليون ريال",
+        "en": "SAR 325.6m"
+      },
+      "change_pct": 2.5,
+      "change_label": {
+        "ar": "مقارنة بالأسبوع اللي قبله",
+        "en": "vs the previous week"
+      },
+      "source_org": {
+        "ar": "البنك المركزي السعودي",
+        "en": "Saudi Central Bank (SAMA)"
+      },
+      "source_url": "https://www.sama.gov.sa/ar-sa/Indices/pages/pos.aspx",
+      "source_note": {
+        "ar": "تقرير نقاط البيع الأسبوعي — تم التحقق عبر سبق",
+        "en": "Weekly POS report — cross-checked via Sabq"
+      },
+      "verified_via": [
+        "https://sabq.org/article/0b01ua0"
+      ],
+      "published_at": "2026-09-23"
+    },
+    {
+      "id": "sama-2026w-0919-hotels",
+      "status": "reference",
+      "priority": 2,
+      "categories": [
+        "outings"
+      ],
+      "national_day_specific": false,
+      "period_type": "pre_national_day_week",
+      "period_start": "2026-09-13",
+      "period_end": "2026-09-19",
+      "period_label": {
+        "ar": "الأسبوع اللي قبل اليوم الوطني · 13–19 سبتمبر 2026",
+        "en": "Week before National Day · 13–19 Sep 2026"
+      },
+      "stat": {
+        "ar": "تغيّر صرف الفنادق عبر نقاط البيع عن الأسبوع اللي قبله",
+        "en": "change in hotel spending vs the previous week"
+      },
+      "value": 1.1,
+      "unit": "percent",
+      "display": {
+        "ar": "+1.1%",
+        "en": "+1.1%"
+      },
+      "change_pct": null,
+      "change_label": null,
+      "source_org": {
+        "ar": "البنك المركزي السعودي",
+        "en": "Saudi Central Bank (SAMA)"
+      },
+      "source_url": "https://www.sama.gov.sa/ar-sa/Indices/pages/pos.aspx",
+      "source_note": {
+        "ar": "تقرير نقاط البيع الأسبوعي — تم التحقق عبر سبق",
+        "en": "Weekly POS report — cross-checked via Sabq"
+      },
+      "verified_via": [
+        "https://sabq.org/article/0b01ua0"
+      ],
+      "published_at": "2026-09-23"
+    },
+    {
+      "id": "sama-2026w-0919-fuel",
+      "status": "reference",
+      "priority": 3,
+      "categories": [
+        "outings"
+      ],
+      "national_day_specific": false,
+      "period_type": "pre_national_day_week",
+      "period_start": "2026-09-13",
+      "period_end": "2026-09-19",
+      "period_label": {
+        "ar": "الأسبوع اللي قبل اليوم الوطني · 13–19 سبتمبر 2026",
+        "en": "Week before National Day · 13–19 Sep 2026"
+      },
+      "stat": {
+        "ar": "صرفها الناس في محطات الوقود خلال أسبوع",
+        "en": "spent at fuel stations in a week"
+      },
+      "value": 978700000,
+      "unit": "SAR",
+      "display": {
+        "ar": "978.7 مليون ريال",
+        "en": "SAR 978.7m"
+      },
+      "change_pct": -7.2,
+      "change_label": {
+        "ar": "مقارنة بالأسبوع اللي قبله",
+        "en": "vs the previous week"
+      },
+      "source_org": {
+        "ar": "البنك المركزي السعودي",
+        "en": "Saudi Central Bank (SAMA)"
+      },
+      "source_url": "https://www.sama.gov.sa/ar-sa/Indices/pages/pos.aspx",
+      "source_note": {
+        "ar": "تقرير نقاط البيع الأسبوعي — تم التحقق عبر سبق",
+        "en": "Weekly POS report — cross-checked via Sabq"
+      },
+      "verified_via": [
+        "https://sabq.org/article/0b01ua0"
+      ],
+      "published_at": "2026-09-23"
+    },
+    {
+      "id": "sama-2026w-0919-total",
+      "status": "active",
+      "priority": 1,
+      "categories": [
+        "other"
+      ],
+      "national_day_specific": false,
+      "period_type": "pre_national_day_week",
+      "period_start": "2026-09-13",
+      "period_end": "2026-09-19",
+      "period_label": {
+        "ar": "الأسبوع اللي قبل اليوم الوطني · 13–19 سبتمبر 2026",
+        "en": "Week before National Day · 13–19 Sep 2026"
+      },
+      "stat": {
+        "ar": "إجمالي الصرف عبر نقاط البيع في المملكة خلال أسبوع",
+        "en": "total point-of-sale spending in the Kingdom in a week"
+      },
+      "value": 12920000000,
+      "unit": "SAR",
+      "display": {
+        "ar": "12.92 مليار ريال",
+        "en": "SAR 12.92bn"
+      },
+      "change_pct": -6.3,
+      "change_label": {
+        "ar": "مقارنة بالأسبوع اللي قبله",
+        "en": "vs the previous week"
+      },
+      "source_org": {
+        "ar": "البنك المركزي السعودي",
+        "en": "Saudi Central Bank (SAMA)"
+      },
+      "source_url": "https://www.sama.gov.sa/ar-sa/Indices/pages/pos.aspx",
+      "source_note": {
+        "ar": "تقرير نقاط البيع الأسبوعي — تم التحقق عبر أرقام وسبق",
+        "en": "Weekly POS report — cross-checked via Argaam and Sabq"
+      },
+      "verified_via": [
+        "https://www.argaam.com/ar/article/articledetail/id/1938475",
+        "https://sabq.org/article/0b01ua0"
+      ],
+      "published_at": "2026-09-23"
+    },
+    {
+      "id": "sama-2026w-0919-culture-ent",
+      "status": "reference",
+      "priority": 5,
+      "categories": [
+        "entertainment"
+      ],
+      "national_day_specific": false,
+      "period_type": "pre_national_day_week",
+      "period_start": "2026-09-13",
+      "period_end": "2026-09-19",
+      "period_label": {
+        "ar": "الأسبوع اللي قبل اليوم الوطني · 13–19 سبتمبر 2026",
+        "en": "Week before National Day · 13–19 Sep 2026"
+      },
+      "stat": {
+        "ar": "تغيّر إنفاق الثقافة والترفيه عبر نقاط البيع مقارنة بالأسبوع اللي قبله",
+        "en": "change in culture & entertainment spending via point-of-sale vs the previous week"
+      },
+      "value": -11.0,
+      "unit": "percent",
+      "display": {
+        "ar": "−11%",
+        "en": "−11%"
+      },
+      "change_pct": null,
+      "change_label": null,
+      "source_org": {
+        "ar": "البنك المركزي السعودي",
+        "en": "Saudi Central Bank (SAMA)"
+      },
+      "source_url": "https://www.sama.gov.sa/ar-sa/Indices/pages/pos.aspx",
+      "source_note": {
+        "ar": "تقرير نقاط البيع الأسبوعي — تم التحقق عبر سبق",
+        "en": "Weekly POS report — cross-checked via Sabq"
+      },
+      "verified_via": [
+        "https://sabq.org/article/0b01ua0"
+      ],
+      "published_at": "2026-09-23"
+    },
+    {
+      "id": "sama-2025-ndweek-total",
+      "status": "reference",
+      "priority": 9,
+      "categories": [
+        "other"
+      ],
+      "national_day_specific": false,
+      "period_type": "national_day_week",
+      "period_start": "2025-09-21",
+      "period_end": "2025-09-27",
+      "period_label": {
+        "ar": "أسبوع اليوم الوطني 95 · 21–27 سبتمبر 2025",
+        "en": "National Day 95 week · 21–27 Sep 2025"
+      },
+      "stat": {
+        "ar": "إجمالي الإنفاق عبر نقاط البيع في أسبوع اليوم الوطني الماضي (مقابل 12.40 مليار في الأسبوع اللي قبله)",
+        "en": "total POS spending in last year's National Day week (vs SAR 12.40bn the week before)"
+      },
+      "value": 12771870000,
+      "unit": "SAR",
+      "display": {
+        "ar": "12.77 مليار ريال",
+        "en": "SAR 12.77bn"
+      },
+      "change_pct": 3.0,
+      "change_label": {
+        "ar": "مقارنة بالأسبوع اللي قبله",
+        "en": "vs the previous week"
+      },
+      "source_org": {
+        "ar": "البنك المركزي السعودي",
+        "en": "Saudi Central Bank (SAMA)"
+      },
+      "source_url": "https://www.spa.gov.sa/N2411293",
+      "source_note": {
+        "ar": "بيانات ساما كما نشرتها وكالة الأنباء السعودية (واس)",
+        "en": "SAMA data as published by the Saudi Press Agency (SPA)"
+      },
+      "published_at": "2025-09-30"
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+/* Thmanyah fonts (font.thmanyah.com). Not in the repo because of the license,
+   drop the woff2 files in public/fonts/thmanyah/. Falls back to IBM Plex. */
+@font-face {
+  font-family: "Thmanyah Display";
+  src: url("/fonts/thmanyah/thmanyahserifdisplay-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Thmanyah Display";
+  src: url("/fonts/thmanyah/thmanyahserifdisplay-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Thmanyah Display";
+  src: url("/fonts/thmanyah/thmanyahserifdisplay-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Thmanyah Display";
+  src: url("/fonts/thmanyah/thmanyahserifdisplay-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Thmanyah Display";
+  src: url("/fonts/thmanyah/thmanyahserifdisplay-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Thmanyah Text";
+  src: url("/fonts/thmanyah/thmanyahseriftext-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Thmanyah Text";
+  src: url("/fonts/thmanyah/thmanyahseriftext-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Thmanyah Text";
+  src: url("/fonts/thmanyah/thmanyahseriftext-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Thmanyah Text";
+  src: url("/fonts/thmanyah/thmanyahseriftext-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Thmanyah Text";
+  src: url("/fonts/thmanyah/thmanyahseriftext-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Thmanyah Digital";
+  src: url("/fonts/thmanyah/thmanyahsans-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Thmanyah Digital";
+  src: url("/fonts/thmanyah/thmanyahsans-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Thmanyah Digital";
+  src: url("/fonts/thmanyah/thmanyahsans-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Thmanyah Digital";
+  src: url("/fonts/thmanyah/thmanyahsans-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Thmanyah Digital";
+  src: url("/fonts/thmanyah/thmanyahsans-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --font-display: "Thmanyah Display", var(--font-plex), "IBM Plex Sans Arabic", system-ui, sans-serif;
+  --font-text: "Thmanyah Text", var(--font-plex), "IBM Plex Sans Arabic", system-ui, sans-serif;
+  --font-digital: "Thmanyah Digital", var(--font-plex), "IBM Plex Sans Arabic", system-ui, sans-serif;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    @apply bg-mist-200 font-sans text-ink-900 antialiased;
+    font-family: var(--font-text);
+    font-feature-settings: "kern", "liga";
+  }
+  [dir="rtl"] body {
+    line-height: 1.7;
+  }
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+  }
+  .text-xs,
+  .text-\[11px\],
+  .text-\[10px\],
+  .text-\[13px\] {
+    font-family: var(--font-digital);
+  }
+  ::selection {
+    background: #e7b113;
+    color: #0e1011;
+  }
+  :focus-visible {
+    outline: 2px solid #e7b113;
+    outline-offset: 3px;
+    border-radius: 10px;
+  }
+}
+
+@layer components {
+  /* highlight block, slightly offset from the text like the identity guide */
+  .hl,
+  .hl-teal,
+  .hl-soft {
+    --hl: #e7b113;
+    background-image: linear-gradient(var(--hl), var(--hl));
+    background-repeat: no-repeat;
+    background-size: calc(100% - 0.14em) 74%;
+    background-position: 0.2em 82%;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    padding-inline: 0.16em;
+  }
+  [dir="rtl"] .hl,
+  [dir="rtl"] .hl-teal,
+  [dir="rtl"] .hl-soft {
+    background-position: calc(100% - 0.2em) 82%;
+  }
+  .hl-teal,
+  .hl-soft {
+    --hl: #3aabb1;
+  }
+
+  .rule-teal {
+    height: 3px;
+    background: #3aabb1;
+  }
+  .rule-dashdot {
+    height: 3px;
+    background: repeating-linear-gradient(90deg, #3aabb1 0 44px, transparent 44px 56px, #3aabb1 56px 62px, transparent 62px 74px, #3aabb1 74px 80px, transparent 80px 92px);
+  }
+  .rule-gold {
+    height: 3px;
+    background: repeating-linear-gradient(90deg, #e7b113 0 22px, transparent 22px 38px);
+  }
+
+  .eyebrow {
+    font-family: var(--font-digital);
+    @apply text-[11px] font-semibold uppercase text-pine-700;
+    letter-spacing: 0.32em;
+  }
+  [dir="rtl"] .eyebrow {
+    letter-spacing: 0.02em;
+    @apply text-xs;
+  }
+
+  .card {
+    @apply rounded-card border border-mist-200 bg-white;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-2xl px-6 font-semibold transition
+      duration-200 ease-out select-none disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  .btn-primary {
+    @apply btn h-14 bg-pine-800 text-white shadow-lift hover:bg-pine-900 active:scale-[0.985];
+  }
+  .btn-secondary {
+    @apply btn h-12 border border-mist-300 bg-white text-pine-800 hover:border-pine-500 hover:bg-pine-50;
+  }
+  .btn-ghost {
+    @apply btn h-10 px-3 text-pine-700 hover:bg-pine-50;
+  }
+
+  .grid-texture {
+    background-image: radial-gradient(rgba(17, 73, 76, 0.08) 1px, transparent 1px);
+    background-size: 14px 14px;
+  }
+
+  .font-display {
+    font-family: var(--font-display);
+  }
+
+  /* after .font-display on purpose so numbers win */
+  .num {
+    font-family: var(--font-digital);
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
